@@ -20,8 +20,29 @@ body{
     font-weight: 700;
     color: #150C01;
 }
+.btn button:hover{
+    color: #DC780B;
+    opacity: 0.9;
+    border: 1.5px solid #dc770b20;
+    background: none;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+}
 
 /* end core style  */
+.header{
+    background-image: url(../images/banner.png);
+    background-position: 540px 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -32,7 +53,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 450px;
+    width: 550px;
 }
 .nav ul li a{
     font-weight: 400;
@@ -45,7 +66,7 @@ body{
 .nav ul li a:hover{
     color: #DC780B;
 }
-.nav .btn button{
+.btn button{
     padding: 14px 30px;
     font-weight: 400;
     font-size: 16px;
@@ -56,9 +77,80 @@ body{
     border: 1.5px solid #DC780B;
     transition: all 0.3s ease;
 }
-.nav .btn button:hover{
-    color: #DC780B;
-    opacity: 0.9;
-    border: 1.5px solid #dc770b20;
-    background: none;
+
+/* Start banner */
+.banner{
+    margin-top: 165px;
+    margin-bottom: 223px;
 }
+.banner-title{
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+    width: 555px;
+    margin-bottom: 40px;
+}
+.banner-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    width: 555px;
+    margin-bottom: 40px;
+}
+.banner-btn button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    background: #DC780B;
+    border-radius: 5px;
+    border: 1.5px solid #DC780B;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+}
+/* End banner */
+/* Start features */
+.features{
+ text-align: center;
+ margin-bottom: 110px;
+}
+.features-subtitle{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.features-title{
+    font-size: 31.25px;
+    line-height: 24px;
+    align-items: center;
+    color: #150C01;
+    margin-bottom: 44px;
+}
+.features-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-item{
+    width: 300px;
+}
+.features-item h4{
+    margin-top: 33px;
+    margin-bottom: 15px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+.features-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+/* End features */
