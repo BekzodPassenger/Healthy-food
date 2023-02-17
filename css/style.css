@@ -5,9 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Roboto';
-    font-style: normal;
+    font-style: normal ;
 }
 /* core style */
 .container{
@@ -198,6 +199,7 @@ body{
 /* Start menu  */
 .menu{
     margin-top: 100px;
+    margin-bottom: 180px;
 }
 .menu-subtitle{
     text-align: center;
@@ -224,14 +226,27 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 .menu-item{
-    background: #FFFFFF;
+    background: #f4fdff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 75px 10px 10px 10px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.menu-item:hover{
+    background: white;
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+}
+.menu-item:hover .food{
+    transform: scale(1.1);
+    background: white;
 }
 .menu-item .food{
     border-radius: 75px 0px 75px 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 .menu-item__info{
     width: 310px;
@@ -265,4 +280,108 @@ body{
     border-radius: 5px;
     padding: 10px;
 }
+.menu-btn{
+    text-align: center;
+    margin-top: 60px;
+}
 /* End menu  */
+/* Start take */
+.take-bg{
+    background: #fef4eaac;
+}
+.take{
+    padding: 120px 0;
+    position: relative;
+    margin-bottom: 213px;
+}
+.take-title{
+    font-size: 31.25px;
+    line-height: 41px;
+    margin-bottom: 29px;
+    width: 555px;
+}
+.take-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    width: 555px;
+    margin-bottom: 39px;
+}
+.take-btn button{
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #150C01;
+    border-radius: 5px;
+    border: 1.5px solid #150c013d;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+}
+.take-btn button:hover{
+    color: #150C01;
+    background: none;
+}
+.take-phone{
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+/* End take */
+/* Start testimonial */
+.testimonial{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.test-title{
+    margin: 12px 0 23px;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    color: #000000;
+}
+.test-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 70px;
+}
+.test-img{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+}
+.test-img .qiz{
+    width: 80px;
+    border-radius: 50px;
+}
+.test-img .rotate{
+    position: absolute;
+    top: -40px;
+    left: -60px;
+}
+.test-info__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.test-stars{
+    margin-bottom: 32px;
+}
+.test-position{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.7;
+}
+/* End testimonial */
