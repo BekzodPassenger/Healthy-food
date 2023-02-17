@@ -385,3 +385,68 @@ body{
     opacity: 0.7;
 }
 /* End testimonial */
+/* Start contact */
+.contact-bg{
+    background: #dc770b25;
+}
+.contact{
+    text-align: center;
+    padding: 115px 0;
+}
+.contact-title{
+    margin: 15px auto 46px;
+    font-size: 31.25px;
+    line-height: 41px;
+    width: 749px;
+}
+form{
+    position: relative;
+}
+form .email{
+    padding: 32px;
+    width: 558px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.5;
+}
+form .submit{
+    position: relative;
+    color: #FFFFFF;
+    background: #DC780B;
+    border-radius: 10px;
+    padding: 30px 57px;
+    border: none;
+    font-size: 18px;
+    right: 20px;
+    cursor: pointer;
+}
+/* End contact */
+/* Start footer */
+.footer-bg{
+    background: #252525;
+    padding: 137px 0 104px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo__img{
+    margin-bottom: 25px;
+}
+.footer-title{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.footer ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
